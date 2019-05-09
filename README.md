@@ -3,7 +3,7 @@
 <h1>Introduction to Data analysis with stata.</h1>
 
 <p>Stata is a powerfull statistical analysis program.It is used in a wide range of areas and offers seamless data analysis environment.In this module you are going to learn basic things you can do to get started quickly.</p>
-<h4>Contents</h4>
+<h4>Contents of this Kernel</h4>
 <div class="toc">
 <ul>
 <li><a href="#h-1"><span class="toc-secnum">1&nbsp;</span> Setting up a working directory.</a>
