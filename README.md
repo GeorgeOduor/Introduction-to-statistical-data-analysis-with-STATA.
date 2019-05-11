@@ -141,7 +141,7 @@ This will export the current dataset in the memory as a csv and replace an exist
 <h2 id="h-7"><span class="heading-secnum">7&nbsp;</span> Built in Datasets.</h2>
 
 <P>STATA comes in with sample datasets that you can use for quick practice.To load a new dataset from the system ,the <code>sysuse</code> keyword is used folowed by the dataset name.</P>
-<div style="position:relative"><pre id="stlog-7" class="stlog"><samp><span class="stinp">. sysuse auto.dta</span>
+<div style="position:relative"><pre id="stlog-7" class="stlog"><samp><span class="stinp">. sysuse auto.dta help dta_contents</span>
 (1978 Automobile Data)
 </samp></pre><a href="" target="_blank" class="btn btn-default btn-sm" style="position:absolute; top:10px; right:10px">Code</a></div>
 <h2 id="h-8"><span class="heading-secnum">8&nbsp;</span> Conclusion</h2>
