@@ -1,9 +1,10 @@
 
+</head>
 <body>
 <h1>Introduction to Data analysis with stata.</h1>
 
 <p>Stata is a powerfull statistical analysis program.It is used in a wide range of areas and offers seamless data analysis environment.In this module you are going to learn basic things you can do to get started quickly.</p>
-<h4>Contents of this Kernel</h4>
+<h4>Contents</h4>
 <div class="toc">
 <ul>
 <li><a href="#h-1"><span class="toc-secnum">1&nbsp;</span> Setting up a working directory.</a>
@@ -41,7 +42,6 @@
 <h2 id="h-1"><span class="heading-secnum">1&nbsp;</span> Setting up a working directory.</h2>
 
 <p>Working directory is very important since it will enable you to easily manage your work flow.</p>
-
 <p>Below is a simple code that can be used for checking and setting up a working directory.</p>
 <div style="position:relative"><pre id="stlog-1" class="stlog"><samp><span class="stinp">. <span class="stcmt">//checking a working dir</span></span>
 <span class="stinp">. pwd</span>
@@ -141,10 +141,17 @@ This will export the current dataset in the memory as a csv and replace an exist
 <h2 id="h-7"><span class="heading-secnum">7&nbsp;</span> Built in Datasets.</h2>
 
 <P>STATA comes in with sample datasets that you can use for quick practice.To load a new dataset from the system ,the <code>sysuse</code> keyword is used folowed by the dataset name.</P>
-<div style="position:relative"><pre id="stlog-7" class="stlog"><samp><span class="stinp">. sysuse auto.dta help dta_contents</span>
+<div style="position:relative"><pre id="stlog-7" class="stlog"><samp><span class="stinp">. sysuse auto.dta</span>
 (1978 Automobile Data)
 </samp></pre><a href="" target="_blank" class="btn btn-default btn-sm" style="position:absolute; top:10px; right:10px">Code</a></div>
+
+<p>The <code>help dta_contents</code> comand will enable you to see available example datasets that come with stata.</p>
+
+<pre id="stlog-7" class="stlog">
+help dta_contents
+</pre>
 <h2 id="h-8"><span class="heading-secnum">8&nbsp;</span> Conclusion</h2>
 
 <p>We can see that working with STATA is very easy and that it can be used quite easily than any other statistical package.</p>
 </body>
+</html>
